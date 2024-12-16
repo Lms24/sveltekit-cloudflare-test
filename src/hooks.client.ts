@@ -16,6 +16,8 @@ Sentry.init({
 
   // If you don't want to use Session Replay, just remove the line below:
   integrations: [replayIntegration()],
+
+  debug: true,
 });
 
 // If you have a custom error handler, pass it to `handleErrorWithSentry`

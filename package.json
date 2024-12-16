@@ -26,6 +26,6 @@
     "wrangler": "^3.95.0"
   },
   "dependencies": {
-    "@sentry/sveltekit": "^8.45.0"
+    "@sentry/sveltekit": "file:.yalc/@sentry/sveltekit"
   }
 }
